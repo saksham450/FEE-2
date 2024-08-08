@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chitkara University Application Form</title>
+    <link rel="stylesheet" href="C:\Users\hp\Desktop\FEE-2\assignments\Applicationform\app.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <img src="C:\Users\hp\Desktop\FEE-2\assignments\Applicationform\code-brigade-logo-small.png" alt="Chitkara University Logo">
+            </div>
+            <div class="title">
+                <h1>Chitkara University Application Form</h1>
+            </div>
+            <div class="additional-image">
+                <img src="C:\Users\hp\Desktop\FEE-2\assignments\Applicationform\cb_top_right_icon.png" alt="Additional Image">
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <form>
+            <h2>Personal Information</h2>
+            <div class="form-group">
+                <label for="firstName">First Name</label>
+                <input type="text" id="firstName" placeholder="Enter your first name" required>
+            </div>
+            <div class="form-group">
+                <label for="lastName">Last Name</label>
+                <input type="text" id="lastName" placeholder="Enter your last name" required>
+            </div>
+            <div class="form-group">
+                <label for="dob">Date of Birth</label>
+                <input type="date" id="dob" required>
+            </div>
+            <div class="form-group">
+                <label for="gender">Gender</label>
+                <select id="gender" required>
+                    <option value="">Select your gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="address">Address</label>
+                <textarea id="address" rows="3" placeholder="Enter your address" required></textarea>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Enter your email" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" placeholder="Enter your phone number" required>
+            </div>
+
+            <h2>Academic Information</h2>
+            <div class="form-group">
+                <label for="highSchool">High School</label>
+                <input type="text" id="highSchool" placeholder="Enter your high school name" required>
+            </div>
+            <div class="form-group">
+                <label for="highSchoolPercentage">High School Percentage</label>
+                <input type="number" id="highSchoolPercentage" placeholder="Enter your high school percentage" required>
+            </div>
+            <div class="form-group">
+                <label for="intermediateSchool">Intermediate School</label>
+                <input type="text" id="intermediateSchool" placeholder="Enter your intermediate school name" required>
+            </div>
+            <div class="form-group">
+                <label for="intermediatePercentage">Intermediate Percentage</label>
+                <input type="number" id="intermediatePercentage" placeholder="Enter your intermediate percentage" required>
+            </div>
+
+            <h2>Course Information</h2>
+            <div class="form-group">
+                <label for="course">Course Applying For</label>
+                <select id="course" required>
+                    <option value="">Select your course</option>
+                    <option value="btech">B.Tech</option>
+                    <option value="mtech">M.Tech</option>
+                    <option value="mba">MBA</option>
+                    <option value="bba">BBA</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="branch">Branch</label>
+                <select id="branch" required>
+                    <option value="">Select your branch</option>
+                    <option value="cse">Computer Science Engineering</option>
+                    <option value="ece">Electronics and Communication Engineering</option>
+                    <option value="mech">Mechanical Engineering</option>
+                    <option value="civil">Civil Engineering</option>
+                </select>
+            </div>
+
+            <h2>Additional Information</h2>
+            <div class="form-group">
+                <label for="extracurricular">Extracurricular Activities</label>
+                <textarea id="extracurricular" rows="3" placeholder="List any extracurricular activities"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="achievements">Achievements</label>
+                <textarea id="achievements" rows="3" placeholder="List any achievements"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="imageUpload">Upload Your Photo</label>
+                <input type="file" id="imageUpload">
+            </div>
+
+            <button type="submit" class="submit-button">Submit Application</button>
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Chitkara University. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
